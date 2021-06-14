@@ -1,6 +1,6 @@
-const el = {
+const ele = {
 	la: 2,
 	ls: 1,
 };
 
-console.log(el);
+console.log('helo', ele);
