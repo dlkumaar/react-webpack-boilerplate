@@ -1,8 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
+
 import './styles/index.scss';
 
-const ele = {
-	la: 2,
-	ls: 1,
-};
-
-console.log('helo', ele);
+ReactDOM.render(<App />, document.getElementById('root'));
